@@ -4130,7 +4130,7 @@ section.gray-section .section-separator {
 .listing_carditem_footer .listing-item-category-wrap span  , .listing_carditem .geodir-category-location a , .listing_carditem_footer .geodir-category_price .price-level-item strong  , .listing_carditem_footer .post-author a span{
 	color:#fff;
 }
-.listing_carditem .listing-rating-count-wrap {
+.listing_carditem .listing-pricing-wrap {
 	float:right;
 }
 .geodir-category-opt_title {
@@ -4342,6 +4342,7 @@ section.gray-section .section-separator {
 	line-height:36px;
 	border-radius:36px;
 }
+
 .listing-rating-count-wrap .review-score {
     background: #384F95;
     color: #fff;
@@ -4352,20 +4353,49 @@ section.gray-section .section-separator {
     font-size: 13px;
 	margin-right:12px;
 }
-.listing-rating-count-wrap .review-score span {
-	position:relative;
-	top:4px;
-	left:10px;
-	font-size:14px;
-	color:#fff;
+
+/* Added Kapil */
+.listing-pricing-wrap .price {
+    background: #384F95;
+    color: #fff;
+    font-weight: 600;
+    border-radius:4px;
+    padding: 10px;
+    font-size: 13px;
+	margin-right:12px;
 }
-.listing-rating-count-wrap .reviews-count {
-	float:left;
+
+
+.listing-pricing-wrap .price-per-unit {
 	color:#fff;
 	font-size:11px;
 	position:relative;
 	top:2px;
 }
+
+geodir-category-opt .tags {
+    padding: 5px 14px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    font-weight: 600;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+}
+
+.geodir-category-opt .tags .badge {
+    padding: 5px 14px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    font-size: 11px;
+    font-weight: 600;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+	float: left;
+}
+
 .category-name {
 	float:left;
 	margin-right:10px;
@@ -7032,7 +7062,7 @@ section.gray-section .section-separator {
 	height:40px;
 	border-radius:100%;
 	float:left;
-	margin-right:20px;
+	margin-right:10px;
 }
 .post-author span {
 	position:relative;
