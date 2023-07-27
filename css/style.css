@@ -25,6 +25,16 @@ body{
 @-o-viewport {width: device-width;}
 @-ms-viewport {width: device-width;}
 @viewport {width: device-width;}
+
+/* CUSTOM REUASBLE CSS */
+.float-left {
+	float: left;
+}
+
+.author-name img {
+	width: 100%;
+}
+
 /*--------------Typography--------------------------------------*/
 blockquote {
 	float:left;

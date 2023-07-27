@@ -973,7 +973,7 @@ function initTowhub() {
         type: "single",
 
         values: [
-            "$", "$$", "$$$", "$$$$"
+            "15L", "35L", "65L", "80L", "1Cr", "5Cr"
         ],
     });
 //click -----------------
